@@ -1,17 +1,17 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #000000   ;
-  --secondary-color: #e2e4da ;
-  --accent1-color: #ffffff;
-  --accent2-color: white;
+  --secondary-color: #ffffff;
+  --accent1-color: #e2e4da;
+  --accent2-color:
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "open sans";
+  --heading-font: "open sans", Arial;
   --paragraph-font: Montserrat, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -83,6 +83,7 @@ p {
 
 .primary {
   background-color: var(--primary-color);
+  color: white;
 }
 .secondary {
   background-color: var(--secondary-color);
