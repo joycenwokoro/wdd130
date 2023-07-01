@@ -174,3 +174,11 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.image{
+  width: 40%;
+  margin: 100px auto;
+  display: inline;
+
+}
+
+}
